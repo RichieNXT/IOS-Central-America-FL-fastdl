@@ -9,8 +9,8 @@ KitData
 	Team
 	{
 		Code "IOSCA"
-		ShortName "IOSoccer CA"
-		LongName "IOSoccer CA"
+		ShortName "IOSCA MIX A"
+		LongName "IOSCA MIX A"
 		IsClub 0
 		IsReal 1
 		IsIosGeneric 1
