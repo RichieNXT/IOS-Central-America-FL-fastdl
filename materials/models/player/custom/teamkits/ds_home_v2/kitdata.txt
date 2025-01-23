@@ -1,0 +1,90 @@
+KitData
+{
+    Name			"Home"
+    Author			"rorro"
+    Tags			"dS, digital, digitalstrikers"	  // [Optional] Separate tags by commas
+
+    PrimaryColor 		"32 32 32 255"  // Red Green Blue Alpha
+    SecondaryColor 		"38 56 90 255"
+
+    Team
+    {
+        Code 			"dS"
+        ShortName 		"Digital Strikers"
+        LongName 		"Digital Strikers"
+        IsClub 			1		// 0: National team | 1: Club
+        IsReal 			0		// 0: Real team | 1: Made up team
+        FifaCountryCode 	""		// [Optional] Home country of the club
+    }
+
+    Outfield
+    {
+        HasCollar		0	// [Optional] 0: Collar off | 1: Collar on
+
+        ShirtName
+        {
+            FillColor 		"215 184 136 255"			
+            OutlineColor	"215 184 136 255"
+            HorizontalOffset 	0		// -: Move name left | +: Move name right
+            VerticalOffset 	-20	// -: Move name down | +: Move name up
+        }
+
+        ShirtBackNumber
+        {
+            FillColor 		"215 184 136 255"
+            OutlineColor	"215 184 136 255"
+            HorizontalOffset 	0
+            VerticalOffset 	-20
+        }
+
+        ShortsNumber
+        {
+            IsOnRightLeg	0
+            FillColor 		"215 184 136 255"
+            OutlineColor	"215 184 136 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+
+        ShirtFrontNumber		// [Optional] Usually only for national teams
+        {
+            FillColor 		"0"
+            OutlineColor	"0"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+    }
+    
+    Keeper
+    {
+        HasCollar	        0
+        
+        ShirtName
+        {
+            FillColor 		"229 229 229 255"
+            OutlineColor	"229 229 229 255"
+            HorizontalOffset 	0
+            VerticalOffset 	-20
+        }
+
+        ShirtBackNumber
+        {
+            FillColor 		"229 229 229 255"
+            OutlineColor	"229 229 229 255"
+            HorizontalOffset 	0
+            VerticalOffset 	-20
+        }
+
+        ShortsNumber
+        {
+            IsOnRightLeg	0
+            FillColor 		"229 229 229 255"
+            OutlineColor	"229 229 229 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+
+
+        }
+    }
+}

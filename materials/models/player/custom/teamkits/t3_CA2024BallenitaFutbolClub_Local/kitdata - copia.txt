@@ -1,0 +1,79 @@
+KitData
+{
+    Name			"(Home '18, Away '18)"	  // Elegir un tipo de kit para tu remera y borrar los paréntesis y sobrantes
+    Author			"Richie"		  // Bastante explicativo
+    Tags			"Americas, CALD2T3, Kit2022"	  // [Opcional] Separar tags con comas
+
+    PrimaryColor 		"163 11 168 255"  // Color primario de la remera en RED GREEN BLUE y ALPHA (transparencia)
+    SecondaryColor 		"255 255 255 255"
+
+    Team
+    {
+        Code 			"BFC"		// Código que va a verse en el scoreboard o marcador (recomiendo 3 o 4 letras)
+        ShortName 		"Ballenita FC"			// Nombre Corto (River Plate, Boca Juniors)
+        LongName 		"Ballenita Futbol Club"		// Nombre Largo (Club Atlético River Plate, Club Atlético Boca Juniors)
+        IsClub 			1		// 0: Equipo nacional | 1: Club
+        IsReal 			0		// 0: Equipo real | 1: Equipo ficticio
+        FifaCountryCode 	"IOS"		// [Opcional] País del que pertenece el CLUB
+    }
+
+    Outfield			// JUGADOR EN CANCHA
+    {
+        HasCollar		1	// [Opcional] 0: Collar de la remera desactivado | 1: Collar de la remera activado
+
+        ShirtName			// NOMBRE EN ESPALDA DE REMERA
+        {
+            FillColor 		"255 255 255 255"	//Color en RED GREEN BLUE y ALPHA			
+            OutlineColor	"255 255 255 255"
+            HorizontalOffset 	0		// -: Mover el nombre hacia la izquierda | +: Mover el nombre hacia la derecha
+            VerticalOffset 	0		// -: Mover el nombre abajo | +: Mover el nombre arriba
+        }
+
+        ShirtBackNumber		// NUMERO EN ESPALDA DE REMERA
+        {
+            FillColor 		"255 255 255 255"
+            OutlineColor	"255 255 255 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+
+        ShortsNumber			// NUMERO EN SHORTS
+        {
+            IsOnRightLeg	0
+            FillColor 		"0 0 0 255"
+            OutlineColor	"255 255 255 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+    }
+    
+    Keeper				// ARQUERO
+    {
+        HasCollar	        1
+        
+        ShirtName			// NOMBRE EN ESPALDA DE REMERA
+        {
+            FillColor 		"255 255 255 255"
+            OutlineColor	"0 0 0 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+
+        ShirtBackNumber		// NUMERO EN ESPALDA DE REMERA
+        {
+            FillColor 		"255 255 255 255"
+            OutlineColor	"0 0 0 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+
+        ShortsNumber			// NUMERO EN SHORTS
+        {
+            IsOnRightLeg	0
+            FillColor 		"255 255 255 255"
+            OutlineColor	"0 0 0 255"
+            HorizontalOffset 	0
+            VerticalOffset 	0
+        }
+    }
+}
