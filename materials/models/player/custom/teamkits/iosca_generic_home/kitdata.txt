@@ -1,0 +1,74 @@
+KitData
+{
+	Name		"IOSCA Generic Home"
+	Author		"kobbeh"
+
+	PrimaryColor 	"29 43 137 255"
+	SecondaryColor 	"255 255 255 255"
+
+	Team
+	{
+		Code "IOSCA"
+		ShortName "IOSoccer CA"
+		LongName "IOSoccer CA"
+		IsClub 0
+		IsReal 1
+		IsIosGeneric 1
+		PrimaryBannerText "IOSCA"
+		SecondaryBannerText "IOSoccer Is Life"
+	}
+
+	Outfield
+	{
+		HasCollar	0
+
+		ShirtName
+		{
+			FillColor 			"255 255 255 255"			
+			HorizontalOffset 	0
+			VerticalOffset 		0
+		}
+
+		ShirtBackNumber
+		{
+			FillColor 			"255 255 255 255"			
+			HorizontalOffset 	0
+			VerticalOffset 		0
+		}
+
+		ShortsNumber
+		{
+			IsOnRightLeg		0
+			FillColor 			"255 255 255 255"			
+			HorizontalOffset 	0
+			VerticalOffset 		40
+		}
+	}
+	
+	Keeper
+	{
+		HasCollar	0
+
+		ShirtName
+		{
+			FillColor 			"255 255 255 255"
+			HorizontalOffset 	0
+			VerticalOffset 		0
+		}
+
+		ShirtBackNumber
+		{
+			FillColor 			"255 255 255 255"
+			HorizontalOffset 	0
+			VerticalOffset 		0
+		}
+
+		ShortsNumber
+		{
+			IsOnRightLeg		0
+			FillColor 			"255 255 255 255"
+			HorizontalOffset 	0
+			VerticalOffset 		40
+		}
+	}
+}
